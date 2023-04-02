@@ -111,3 +111,79 @@ toString() -> Converts the values of the array to string data type.
 
 const cat = ['Elektronic', 'Clothes', 'House']
 console.log(cat.toString()) // Writes Elektronic,Clothes,House to the screen
+
+/* 
+
+push() -> It is used to add a new parameter to an array.
+          But it adds the new parameter to the end. It can take more than one parameter.
+          
+
+*/
+
+const tradeMark = ['Iphone', 'Samsung', 'Huawei']
+console.log(tradeMark)
+tradeMark.push('Oppo')
+console.log(tradeMark) 
+console.log(tradeMark.length) // Writes 5 to the screen.
+
+/* 
+
+pop() -> Deletes the last parameter in the array.
+
+*/
+
+const class1 = ['Hakan', 'Ahmet', 'Yılmaz', 'Gamze', 'Sinem']
+class1.push('Kaan')
+console.log(class1)
+class1.pop()
+console.log(class1)
+let lastParam = class1.pop()
+console.log(lastParam) // Writes Sinem to the screen.
+
+const class2 = ['Hakan', 'Ahmet', 'Yılmaz', 'Gamze', 'Sinem']
+class2.push('Kağan')
+console.log(class2)
+class2[class2.length - 1] = 'Kaan'
+console.log(class2)
+
+/* 
+
+Shift() -> It is used to extract the first parameter from an array.
+
+*/
+
+class2.shift()
+console.log(class2)
+
+/* 
+
+unshift() -> Adds the new parameter to the first row.
+             It can take more than one parameter.
+
+*/
+
+class2.unshift('Canan')
+console.log(class2)
+
+
+/* 
+
+reverse() -> Reverses the elements inside an array.
+
+*/
+
+class2.reverse()
+console.log(class2)
+
+/* 
+
+sort() -> Bir dizi içindeki parametreleri artan bir şekilde sıralar.
+
+*/
+
+class2.sort()
+console.log(class2)
+class2.reverse()
+console.log(class2)
+
+
