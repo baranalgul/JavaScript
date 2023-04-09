@@ -30,7 +30,7 @@ function message () {
 
 message()
 
-console.log(msg)  // msg won't work because it's local scope
+// console.log(msg)  // msg won't work because it's local scope
 
 function alert() {
     let info = 'Your application has been taken for granted'
@@ -51,3 +51,35 @@ function lastName () {
 }
 
 console.log(lastName())
+
+function total(num1, num2) {
+    return num1 + num2
+    
+}
+
+//total(10, 82)
+
+console.log(total(10, 82))
+
+let name1 = prompt('Enter your name')
+let surname = prompt('Enter your  surname')
+
+function fullName(name, surname) {  
+    let fullName = `${name} ${surname}`
+    return fullName
+}
+
+console.log(fullName(name1, surname))
+
+/* 
+
+Arrow Functions
+They are defined to the variable
+
+*/
+
+let hello = (name) => {
+    return `Hello, ${name} Welcome`
+}
+
+console.log(hello('Baran'))
