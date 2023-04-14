@@ -49,7 +49,7 @@ for(let i = 0; i< data; i++) {
 }
 for(property of Object.keys(user)) {
     if(property == 'job') {
-        console.log(key)
+        console.log(property)
         break
     }
 }
@@ -61,5 +61,6 @@ console.log(Object.values(user)) // Writes all values
 console.log(Object.values(user)[1]) //Writes Cepkin to the screen
 
 
-//keyleri ve valueları for of la alt alta
+
+
 
