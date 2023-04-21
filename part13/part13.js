@@ -53,6 +53,45 @@ let cTitle = document.getElementById('title')
 cTitle.style.color = 'red'
 cTitle.style.backgroundColor = 'Yellow'
 
+//getElementsByClassName
+//Accesses elements by class name
+//Captured elements are passed to the array
+
+let buttons = document.getElementsByClassName('btn')
+console.log(buttons)
+
+buttons[1].style.backgroundColor = 'Red'
+
+//getElementsByTagName
+//Elements are accessed by tag name
+//Captured elements are passed to the array
+
+let h4 = document.getElementsByTagName('h4')
+h4[0].innerText = 'New Title'
+
+let h2 = document.getElementsByTagName('h2')
+for(let i=0; i<h2.length; i++) {
+h2[i].textContent = 'New Title'
+}
+
+/* 
+İlgili method ile kullanıcıdan 3 adet ayrı başlık alınacak
+Alınan başlıklar boş bir diziye aktarılacak
+Bu başlıklar body içinde js ile yazdırılacak
+*/
+
+// let title1 = prompt('Enter title')
+// let title3 = prompt('Enter title')
+// let title4 = prompt('Enter title')
+// let array = []
+// array.push(title1)
+// array.push(title3)
+// array.push(title4)
+// for(let i=0; i<array.length; i++) {
+//     document.write (
+//         `<h1>${array[i]}</h1>`
+//     )
+// }
 
 
 
