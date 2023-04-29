@@ -1,0 +1,18 @@
+{
+    "users":[
+        {
+            "name":"Mehmet",
+            "surname":"Kaya",
+            "age": 48
+        },
+        {
+            "name":"Mahmut",
+            "surname":"Tuncer",
+            "age":60
+        }
+    ],
+    "authority":[
+        "administrator",
+        "user"
+    ]
+}
