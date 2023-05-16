@@ -1,0 +1,16 @@
+{
+    "users":[
+        {
+            "name":"Hakan",
+            "surname": "Yilmaz",
+            "job":"Software Developer",
+            "age":25
+        },
+        {
+            "name": "Eren",
+            "surname":"Kaya",
+            "job":"Designer",
+            "age": 30
+        }
+    ]
+}
