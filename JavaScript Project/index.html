@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Country City Selection</title>
+</head>
+<body>
+   <div id="container">
+    <select id="country" onchange="populateCities()">
+        <option value="">Select Country</option>
+        <option value="turkey">Turkey</option>
+        <option value="usa">USA</option>
+    </select>
+    
+    <select id="city" onchange="populateDistricts()">
+        <option value="">Select City</option>
+    </select>
+    
+    <select id="district">
+        <option value="">Select District</option>
+    </select>
+
+   </div>
+    <script src="script.js"></script>
+</body>
+</html>
