@@ -1,4 +1,4 @@
-// Şehirleri ve ilçeleri içeren bir veri yapısı
+
 var cities = {
     turkey: ["Istanbul", "Ankara", "Izmir"],
     usa: ["New York", "Los Angeles", "Chicago"]
